@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/regist/index",
+    "pages/findpassword/index",
+    "pages/main/index",
+    "pages/report/index",
+    "pages/photo/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

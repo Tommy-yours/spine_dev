@@ -1,0 +1,19 @@
+.photo{
+    /* height: 100%; */
+    /* width: 100%; */
+    position: relative;
+}
+.camera{
+    height: calc(100vh - 130rpx);
+    width: 100%;  
+    position: relative;
+    margin-bottom: 20rpx;
+}
+/* .photo-border{
+    position: absolute;
+    left:15rpx;
+    top:25rpx;
+    width: calc(100% - 30rpx);
+    height: calc(100vh - 180rpx);
+    border: 1px solid #37b9c6;
+} */

@@ -1,0 +1,40 @@
+<view class="content">
+
+  <view class="toptext">
+    <text style="font-size: 50rpx">脊柱侧弯评估</text>
+  </view>
+
+  <view class="dealimage">
+    <text class="image_text">点击输入图片：</text>
+    <button class="image_button" bindtap="doUpload">+</button>
+
+    <modal title="拍摄图片引导" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+      <view>
+        <image class="image1" src="/images/111.jpg" mode='aspectFit'></image>
+      </view>
+      <view>请先站立平稳后弯腰，如图所示</view>
+      <!-- <view>but you open your umbrella when it rains...</view> -->
+    </modal>
+
+    <!-- <cover-view class="cover-view">
+      <image class="image1" src="/images/test.jpg" mode='aspectFill'></image>
+    </cover-view> -->
+  </view>
+
+  <view class="dealvideo">
+    <text class="video_text">点击输入视频：</text>
+    <button class="video_button" bindtap="chooseVideo">+</button>
+
+    <modal title="拍摄视频引导" hidden="{{modalHidden_v}}" bindconfirm="modalConfirm_v" bindcancel="modalCandel_v">
+      <view>
+        <image class="image2" src="/images/logo.png" mode='aspectFit'></image>
+      </view>
+      <view>请张开手臂，如图所示</view>
+      <!-- <view>but you open your umbrella when it rains...</view> -->
+    </modal>
+
+  </view>
+
+  <button class="begin_test" type="primary" bindtap="gen_report">开始评估</button>
+
+</view>

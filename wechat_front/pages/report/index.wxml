@@ -1,0 +1,63 @@
+<view class="content">
+
+  <view class="toptext">
+    <text style="font-size: 50rpx">脊柱侧弯报告</text>
+  </view>
+
+  <view class="dealimage">
+    <text class="image_text">学生信息：</text>
+    <!-- <button class="image_button" bindtap="doUpload">+</button> -->
+    <text class="image_text">---</text>
+  </view>
+
+  <view class="dealimage">
+    <text class="image_text">姓名</text>
+    <!-- <button class="image_button" bindtap="doUpload">+</button> -->
+    <text class="image_text">张三</text>
+  </view>
+
+  <view class="dealimage">
+    <text class="image_text">学校</text>
+    <!-- <button class="image_button" bindtap="doUpload">+</button> -->
+    <text class="image_text">深圳实验中学</text>
+  </view>
+
+
+  <view class="dealvideo">
+    <text class="video_text">报告评估：</text>
+    <text class="video_text">---</text>
+  </view>
+
+  <view class="dealvideo">
+    <text class="video_text">内肩高</text>
+    <text class="video_text">正常</text>
+  </view>
+
+  <view class="dealvideo">
+    <text class="video_text">外肩高</text>
+    <text class="video_text">正常</text>
+  </view>
+
+  <view class="dealvideo">
+    <text class="video_text">肩部较大侧</text>
+    <text class="video_text">相等</text>
+  </view>
+
+  <view class="dealvideo">
+    <text class="video_text">手臂拐处高</text>
+    <text class="video_text">正常</text>
+  </view>
+
+
+  <view class="dealvideo">
+    <text class="video_text">腋窝高</text>
+    <text class="video_text">正常</text>
+  </view>
+
+  <!-- <button class="begin_test" type="primary" bindtap="gen_report">开始评估</button> -->
+
+
+
+
+
+</view>

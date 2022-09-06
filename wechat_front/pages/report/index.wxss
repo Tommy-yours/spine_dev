@@ -1,0 +1,62 @@
+/*.myprogress{margin:5px 0}*/
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.toptext {
+    text-align: center;
+    margin-top: 10rpx;
+}
+
+
+.dealimage {
+    display: flex;
+    margin-top: 20rpx;
+    height: 60rpx;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dealimage .image_text{
+    font-size: 40rpx;
+    width: 40%;
+    margin-left: 10%;
+    /* display: inline-block; */
+}
+
+.dealimage .image_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 30rpx;
+}
+
+
+.dealvideo {
+    display: flex;
+    margin-top: 20rpx;
+    height: 60rpx;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dealvideo .video_text{
+    font-size: 40rpx;
+    width: 40%;
+    margin-left: 10%;
+    /* display: inline-block; */
+}
+
+.dealvideo .video_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 30rpx;
+}
+
+.begin_test {
+  margin-top: 100rpx;
+}

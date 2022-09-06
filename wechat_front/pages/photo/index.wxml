@@ -1,0 +1,10 @@
+<view class="photo">
+  <camera device-position="back" flash="off" binderror="cameraError" class="camera">
+    <!-- <view class="photo-border"></view> -->
+    <cover-image class="image-cover" src="/images/cover.png" mode='aspectFill'></cover-image>
+  </camera>
+  <!-- <view>{{size}}</view> -->
+  <!-- <image mode="widthFix" src="{{src}}"></image> -->
+  <!-- <button color="#37b9c6" block type="primary" bind:click="takePhoto">确定</button> -->
+  <button class="begin_photo" type="primary" bindtap="takePhoto">拍摄上传</button>
+</view>
